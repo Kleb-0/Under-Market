@@ -1,0 +1,71 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# FrontEnd
+
+# dependencies
+under-market-front/node_modules/
+under-market-front/.pnp
+under-market-front/.pnp.*
+under-market-front/.yarn/*
+under-market-front/!.yarn/patches
+under-market-front/!.yarn/plugins
+under-market-front/!.yarn/releases
+under-market-front/!.yarn/versions
+
+# testing
+under-market-front/coverage
+
+# next.js
+under-market-front/.next/
+under-market-front/out/
+
+# production
+under-market-front/build
+
+# misc
+under-market-front/.DS_Store
+under-market-front/*.pem
+
+# debug
+under-market-front/npm-debug.log*
+under-market-front/yarn-debug.log*
+under-market-front/yarn-error.log*
+under-market-front/.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+under-market-front/.env*
+
+# vercel
+under-market-front/.vercel
+
+# typescript
+under-market-front/*.tsbuildinfo
+under-market-front/next-env.d.ts
+
+# BackEnd
+
+# Spring Boot
+
+backend/HELP.md
+backend/target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+backend/.apt_generated
+backend/.classpath
+backend/.factorypath
+backend/.project
+backend/.settings
+backend/.springBeans
+backend/.sts4-cache
+
+### IntelliJ IDEA ###
+.idea/
+backend/*.iws
+backend/*.iml
+backend/*.ipr
+
+### VS Code ###
+.vscode/
