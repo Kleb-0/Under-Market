@@ -46,6 +46,7 @@ under-market-front/next-env.d.ts
 
 # Spring Boot
 
+BackEnd/src/main/resources/application.properties
 backend/HELP.md
 backend/target/
 !.mvn/wrapper/maven-wrapper.jar
@@ -53,6 +54,7 @@ backend/target/
 !**/src/test/**/target/
 
 ### STS ###
+*.properties
 backend/.apt_generated
 backend/.classpath
 backend/.factorypath
